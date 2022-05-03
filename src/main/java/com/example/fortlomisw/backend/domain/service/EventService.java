@@ -12,5 +12,5 @@ public interface EventService {
     Event updateEvent(Long eventId, Event request);
     List<Event> getEventsByArtistId(Long artistId);
     ResponseEntity<?> deleteEvent(Long eventId);
-    //void seed();
+    void seed();
 }

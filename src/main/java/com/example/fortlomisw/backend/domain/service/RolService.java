@@ -9,7 +9,7 @@ import java.util.Optional;
 public interface RolService {
     Optional<Rol> findByName(RolNombre name);
 
-    //void seed();
+    void seed();
 
     List<Rol> getAll();
 }

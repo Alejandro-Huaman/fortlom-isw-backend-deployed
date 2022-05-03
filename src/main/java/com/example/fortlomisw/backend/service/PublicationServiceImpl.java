@@ -90,7 +90,7 @@ public class PublicationServiceImpl implements PublicationService {
             return ResponseEntity.ok().build();
         }).orElseThrow(() -> new ResourceNotFoundException(ENTITY, publicationId));
     }
-/*
+
     @Override
     public void seed() {
         Publication request=new Publication();
@@ -102,5 +102,5 @@ public class PublicationServiceImpl implements PublicationService {
             create((long)2,request);
         }
 
-    }*/
+    }
 }

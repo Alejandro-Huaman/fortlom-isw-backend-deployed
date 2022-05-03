@@ -27,7 +27,7 @@ public class RolServiceImpl implements RolService {
     public Optional<Rol> findByName(RolNombre name) {
         return rolRepository.findByName(name);
     }
-/*
+
     @Override
     public void seed() {
         Arrays.stream(DEFAULT_ROLES).forEach(name -> {
@@ -36,7 +36,7 @@ public class RolServiceImpl implements RolService {
                 rolRepository.save((new Rol()).withName(roleName));
             }
         } );
-    }*/
+    }
 
     @Override
     public List<Rol> getAll() {
