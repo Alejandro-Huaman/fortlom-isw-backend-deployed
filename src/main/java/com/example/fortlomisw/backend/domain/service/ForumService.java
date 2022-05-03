@@ -16,5 +16,5 @@ public interface ForumService {
     Forum updateForum(Long forumId, Forum request);
     List<Forum> getForumsByUserId(Long userId);
     ResponseEntity<?> deleteForum(Long forumId);
-    void seed();
+    //void seed();
 }

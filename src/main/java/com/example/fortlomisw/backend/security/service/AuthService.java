@@ -46,7 +46,7 @@ public class AuthService {
 
     @Autowired
     RolService rolService;
-
+/*
     public void seed(){
         Fanatic fanatic= new Fanatic();
         fanatic.setUsername("fan");
@@ -100,7 +100,7 @@ public class AuthService {
         if(!fanaticService.existsByNombreUsuario(fanatic2.getUsername())){
             fanaticService.save(fanatic2);
         }
-    }
+    }*/
 
 
 

@@ -39,11 +39,11 @@ public class DatabaseSeedingConfig {
     public void onApplicationReady(ApplicationReadyEvent event){
         String name = event.getApplicationContext().getId();
         logger.info("Starting Database Seeding Process for {} at {}", name, new Timestamp(System.currentTimeMillis()));
-        rolService.seed();
-        authService.seed();
-        forumService.seed();
-        publicationService.seed();
-        eventService.seed();
+        //rolService.seed();
+        //authService.seed();
+        //forumService.seed();
+        //publicationService.seed();
+        //eventService.seed();
         logger.info("Finished Database Seeding Process for {} at {}", name, new Timestamp(System.currentTimeMillis()));
 
 

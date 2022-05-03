@@ -80,7 +80,7 @@ public class ForumServiceImpl implements ForumService {
             return ResponseEntity.ok().build();
         }).orElseThrow(() -> new ResourceNotFoundException(ENTITY, forumId));
     }
-
+    /*
     @Override
     public void seed() {
         Forum request=new Forum();
@@ -98,5 +98,5 @@ public class ForumServiceImpl implements ForumService {
            createForum((long)1,request2);
        }
 
-    }
+    }*/
 }
