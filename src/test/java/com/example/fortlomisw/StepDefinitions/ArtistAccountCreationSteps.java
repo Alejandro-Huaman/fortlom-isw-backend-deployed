@@ -28,7 +28,7 @@ public class ArtistAccountCreationSteps {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(40,TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
-        driver.navigate().to("https://fortlom-isw-frontend.herokuapp.com/");
+        driver.navigate().to("http://localhost:4200/");
     }
 
 
