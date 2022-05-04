@@ -23,7 +23,7 @@ public class LikePublicationsEventsFanaticSteps {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
-        driver.navigate().to("http://localhost:4200/");
+        driver.navigate().to("https://fortlom-isw-frontend.herokuapp.com/");
 
         driver.findElement(By.id("exampleInputEmail1")).sendKeys("fan");
         driver.findElement(By.id("exampleInputPassword1")).sendKeys("nueva");
@@ -70,7 +70,7 @@ public class LikePublicationsEventsFanaticSteps {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
-        driver.navigate().to("http://localhost:4200/");
+        driver.navigate().to("https://fortlom-isw-frontend.herokuapp.com/");
 
         driver.findElement(By.id("exampleInputEmail1")).sendKeys("fan");
         driver.findElement(By.id("exampleInputPassword1")).sendKeys("nueva");
